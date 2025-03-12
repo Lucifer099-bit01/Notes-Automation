@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+     <div class="min-h-screen bg-zinc-900 p-10 text-white">
+        <h1 class="text-zinc-500 text-2xl ">Upload Your Syllabus</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input name="Syllabus" type="file" class="mt-7 border-2 p-2" placeholder="Upload file in pdf format" required>
+            <input type="submit" value="upload" class="bg-blue-500 px-3 py-2 ml-2 rounded">
+        </form>
+     </div>
+</body>
+</html>
